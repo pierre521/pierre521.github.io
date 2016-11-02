@@ -1,0 +1,81 @@
+body {
+  background: #363636;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+h2 {
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 0;
+}
+
+code {
+  background: rgba(128, 128, 128, 0.25);
+  padding: 1px 3px;
+  border-radius: 2px;
+}
+
+.cxb-tasklist {
+  border-right: 1px solid rgba(128, 128, 128, 0.1);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.cxe-tasklist-header {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.cxe-tasklist-add {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.cxb-task {
+  a {
+    color: #00c1ff;
+  }
+}
+
+.cxe-layout-header {
+
+  border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+
+  a {
+    text-decoration: none;
+
+    &.active {
+      color: white;
+      background: rgba(128, 128, 128, 0.5);
+      background-color: rgba(128, 128, 128, 0.5);
+    }
+  }
+}
+
+.cxb-help {
+  code {
+    background: rgba(128, 128, 128, 0.25);
+    border-radius: 2px;
+    padding: 5px;
+  }
+
+  hr {
+    border-top: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+    margin: 2rem 0;
+  }
+}
+
+.cxe-window-body {
+  background: gray;
+}
+
+.cxb-dropdown {
+  background: #444444;
+}
